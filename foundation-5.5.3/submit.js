@@ -112,7 +112,7 @@ function search(){
     if(flag==1)
     temp[key]=value;
     });
-    if(temp.length<=0)
+    if(Object.keys(temp).length<=0)
     alert("nothing found");
     else{
         
